@@ -1,5 +1,9 @@
 discord.py[voice] ~= 0.16.0
 pip
 youtube_dl
-colorlog
 cffi --only-binary all; sys_platform == 'win32'
+colorlog
+discord.py==0.14.3
+aiohttp
+websockets
+chardet
